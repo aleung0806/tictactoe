@@ -1,0 +1,21 @@
+.column{
+    border-style: solid;
+    margin: 5px;
+}
+#turn {
+    margin-left: 20px;
+}
+#gameboard {
+    margin-left: 20px;
+}
+#results {
+    margin-left: 20px;
+}
+#replay_button {
+    display: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
