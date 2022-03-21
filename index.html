@@ -8,46 +8,69 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+<div id="name_div">
+  <div>
+    <label for="name1">Player 1:</label>
+    <input type="text" id="name1" name="name1" placeholder="Gebegu">
+  </div>
+  <div>
+    <label for="name2">Player 2:</label>
+    <input type="text" id="name2" name="name2" placeholder="Geboogy">
+  </div>
+  <button id="play_button" type="submit">Play!</button>
+</div>
 <body>
+<div id="body">
   <div class="row">
-    <h1 id="turn" >X's Turn</h1>
+    <h1 id="display" >X's Turn</h1>
   </div>
   <div id="gameboard">
     <div class="row">
       <div class="column">
-        <img id="00" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="00" class="tile" src="images/blank.jpg">
       </div>
       <div class="column">
-        <img id="01" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="01" class="tile" src="images/blank.jpg">
       </div>
       <div class="column">
-        <img id="02" data-marker="blank" class="tile" src="images/blank.jpg">
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img id="10" data-marker="blank" class="tile" src="images/blank.jpg">
-      </div>
-      <div class="column">
-        <img id="11" data-marker="blank" class="tile" src="images/blank.jpg">
-      </div>
-      <div class="column">
-        <img id="12" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="02" class="tile" src="images/blank.jpg">
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <img id="20" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="10" class="tile" src="images/blank.jpg">
       </div>
       <div class="column">
-        <img id="21" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="11" class="tile" src="images/blank.jpg">
       </div>
       <div class="column">
-        <img id="22" data-marker="blank" class="tile" src="images/blank.jpg">
+        <img id="12" class="tile" src="images/blank.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img id="20" class="tile" src="images/blank.jpg">
+      </div>
+      <div class="column">
+        <img id="21" class="tile" src="images/blank.jpg">
+      </div>
+      <div class="column">
+        <img id="22" class="tile" src="images/blank.jpg">
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="column">
+      <h1 id="X_name" >Player 1</h1>
+      <h2 id="X_score" >0 points</h2>
+    </div>
+    <div class="column">
+      <h1 id="O_name" >Player 2</h1>
+      <h2 id="O_score" >0 points</h2>
+    </div>
+  </div>
   <button id="replay_button" >Play again?</button>
+</div>
   <script src="script.js"></script>
 </body>
 </html>

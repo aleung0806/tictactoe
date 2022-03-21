@@ -1,16 +1,12 @@
 .column{
     border-style: solid;
     margin: 5px;
+    padding: 5px;
 }
-#turn {
+#body {
     margin-left: 20px;
 }
-#gameboard {
-    margin-left: 20px;
-}
-#results {
-    margin-left: 20px;
-}
+
 #replay_button {
     display: none;
 }
